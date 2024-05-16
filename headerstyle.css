@@ -1,0 +1,44 @@
+.header_container {
+    border-top: 3px solid #86200D;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    background-color: #ffb0bb;
+    height: 8vh;
+    
+}
+.header_logo {
+    width: 250px;
+    height: 60px;
+    padding-right: 80px;
+    
+}
+.header_container a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px #86200D;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.header_container a:hover {
+    color: #e47683 ;
+}
+.header_button {
+    width: 130px;
+    height: 40px;
+    background-color: #e47683;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px #86200D;
+    cursor: pointer;
+}
+.header_button:hover {
+    transition: 1s;
+    background-color: #86200D; 
+}
