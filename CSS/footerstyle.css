@@ -1,8 +1,7 @@
-.container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Coiny;
+.footer-principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
     border-top: 5px solid #462316;
     background-color: #6f3723;
     color: white;
@@ -13,21 +12,11 @@
     width: 250px;
     height: 60px;
 }
-.container-footer-1 {
-    width: 360px;
-}
-.container-footer-2 {
-    width: 360px;
+.bloco-info {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 20px;
 }
-.container-footer-3 {
-    width: 360px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .info {
     text-align:center;
     padding: 15px 0px;

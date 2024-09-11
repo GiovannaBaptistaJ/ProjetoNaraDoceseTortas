@@ -1,67 +1,70 @@
 body {
     background-color: #FDF0CB;
 }
-.container1 {
+.container-contato{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
     padding-top: 30px;
 }
-.bloco {
+
+.bloco-container-contato {
     border: 2px solid #ffb0bb;
     border-radius: 2px;
-    width: 200px;
-    height: 160px;
+    padding: 40px 20px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
-.bloco i {
+
+.bloco-container-contato i {
     padding: 10px;
 
 }
-.bloco p {
+.bloco-container-contato p {
     padding: 10px;
     font-size: 20px;
     font-family: "Coiny", system-ui;
-    font-weight: 400;
-    font-style: normal;
     color: #86200D;
 }
-.container2 {
+
+.formulario-contato {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 30px 150px;
     gap: 10px;
     padding: 15px;
-    background-color: whitesmoke
+    background-color: white;
+    
 }
-.container2 label {
+.formulario-contato label {
     font-family: "Coiny", system-ui;
     font-weight: 400;
     font-style: normal;
     color: #86200D;
 }
-.container2 input {
+.formulario-contato input {
     height: 60px;
     border: none;
+    background-color: rgb(249, 248, 248);
 }
-.container2 button {
+.formulario-contato button {
     height: 60px;
     background-color: #e47683;
     border: none;
     border-radius: 3px;
     color: white;
-    font-family: "Coiny", system-ui;
     font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-shadow: 1px 1px #86200D;
     cursor: pointer;
 }
-.container2 button:hover {
+.formulario-contato button:hover {
     transition: 1s;
     background-color: #86200D; 
 }
