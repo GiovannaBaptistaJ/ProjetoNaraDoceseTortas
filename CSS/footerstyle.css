@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
     border-top: 5px solid #462316;
-    background-color: #6f3723;
+    background-color: var(--marrom-principal);
     color: white;
     padding: 10px 0px;
 
@@ -20,7 +20,7 @@
 .info {
     text-align:center;
     padding: 15px 0px;
-    background-color: #462316;
+    background-color: var(--marrom-escuro);
     color: white;
     letter-spacing: 4px;
 }

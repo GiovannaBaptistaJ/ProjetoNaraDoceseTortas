@@ -28,3 +28,10 @@ button {
 li {
     list-style: none;
 }
+:root {
+    --rosa-principal: #ffb0bb;
+    --rosa-escuro: #e47683;
+    --vermelho: #86200D;
+    --marrom-principal: #6f3723;
+    --marrom-escuro: #462316;
+}

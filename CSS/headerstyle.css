@@ -1,10 +1,10 @@
 .header_container {
-    border-top: 3px solid #86200D;
+    border-top: 3px solid var(--vermelho);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #ffb0bb;
+    background-color: var(--rosa-principal);
 
 }
 
@@ -22,14 +22,14 @@
 }
 .header_container ul li a {
     color: white;
-    text-shadow: 1px 1px #86200D;
+    text-shadow: 1px 1px var(--vermelho);
     padding: 0 10px;
 
 }
 .header_button {
     width: 130px;
     height: 40px;
-    background-color: #e47683;
+    background-color: var(--rosa-escuro);
     color: white;
     border: none;
     border-radius: 3px;
@@ -38,5 +38,5 @@
 
 .header_button:hover {
     transition: 1s;
-    background-color: #86200D;
+    background-color: var(--vermelho);
 }
