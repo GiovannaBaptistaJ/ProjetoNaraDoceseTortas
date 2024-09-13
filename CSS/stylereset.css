@@ -28,10 +28,17 @@ button {
 li {
     list-style: none;
 }
+textarea {
+    resize: none;
+}
 :root {
     --rosa-principal: #ffb0bb;
     --rosa-escuro: #e47683;
     --vermelho: #86200D;
     --marrom-principal: #6f3723;
     --marrom-escuro: #462316;
+    --bege: #FDEFCB;
+    --branco: #ffffff;
+    --preto: #000000;
+    
 }

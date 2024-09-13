@@ -2,15 +2,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    border-top: 5px solid #462316;
+    border-top: 5px solid var(--marrom-escuro);
     background-color: var(--marrom-principal);
-    color: white;
+    color:var(--branco);
     padding: 10px 0px;
+    font-family: Coiny;
 
 }
 .logo-footer {
-    width: 250px;
-    height: 60px;
+    max-width: 250px;
+    
 }
 .bloco-info {
     display: flex;
@@ -21,6 +22,6 @@
     text-align:center;
     padding: 15px 0px;
     background-color: var(--marrom-escuro);
-    color: white;
+    color: var(--branco);
     letter-spacing: 4px;
 }
