@@ -15,7 +15,12 @@
 }
 .bloco-info {
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+.container-footer-3 {
+    display: flex;
+    gap: 5px;
 }
 
 .info {

@@ -12,6 +12,7 @@
     max-width: 250px;
 
 }
+
 .header_nav {
     display: flex;
     justify-content: space-evenly;
@@ -19,23 +20,19 @@
     align-items: center;
     gap: 20px;
 }
+
 .header_container ul li a {
     color: var(--branco);
     text-shadow: 1px 1px var(--vermelho);
     padding: 0 10px;
 
 }
-.header_button {
-    width: 130px;
-    height: 40px;
-    background-color: var(--rosa-escuro);
-    color: var(--branco);
-    border: none;
-    border-radius: 3px;
-    
-}
 
-.header_button:hover {
-    transition: 1s;
+.header_button {
+    width: 40px;
+    height: 40px;
     background-color: var(--vermelho);
+    border: none;
+    border-radius: 50px;
+
 }
