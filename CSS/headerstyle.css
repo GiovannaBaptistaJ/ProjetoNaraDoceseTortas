@@ -1,38 +1,51 @@
-.header_container {
-    border-top: 3px solid var(--vermelho);
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--rosa-principal);
+header {
+    background-color: var(--bg1);
+    font-family: "Nunito Sans", serif;
+}
 
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header_logo {
     max-width: 250px;
-
 }
 
 .header_nav {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
+    gap: 0px 21px;
+
 }
 
 .header_container ul li a {
-    color: var(--branco);
-    text-shadow: 1px 1px var(--vermelho);
-    padding: 0 10px;
+    color: var(--txt-color-black);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.125;
+    padding: 15px 0px;
+}
 
+.header_container ul li a:hover {
+    color: var(--primary-color1);
+}
+
+.header_order {
+    display: flex;
+    gap: 0px 30px;
 }
 
 .header_button {
-    width: 40px;
-    height: 40px;
-    background-color: var(--vermelho);
-    border: none;
-    border-radius: 50px;
+    background-color: var(--primary-color1);
+    color: var(--txt-color-white);
+    padding: 10px 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 
+}
+
+.header_button:hover {
+    background-color: var(--secondary-color3);
 }

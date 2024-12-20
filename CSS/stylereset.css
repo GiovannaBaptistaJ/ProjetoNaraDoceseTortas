@@ -1,44 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
+
 h1 {
-    font-size: 4rem;
+    font-size: 2.0rem;
 }
+
 h2 {
     font-size: 2.5rem;
 }
+
 h3 {
     font-size: 2rem;
 }
+
 p {
     font-size: 1rem;
 }
+
 a {
     font-size: 1rem;
-    font-family: "Coiny", system-ui;
     text-decoration: none;
 }
+
 button {
-    font-family: "Coiny", system-ui;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
+
 li {
     list-style: none;
+    font-size: 1.2rem;
+
 }
+
+img {
+    display: block;
+}
+
 textarea {
     resize: none;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
 :root {
-    --rosa-principal: #ffb0bb;
-    --rosa-escuro: #e47683;
-    --vermelho: #86200D;
-    --marrom-principal: #6f3723;
-    --marrom-escuro: #462316;
-    --bege: #FDEFCB;
-    --branco: #ffffff;
-    --preto: #000000;
-    
+    --primary-color0: #C94D59;
+    --primary-color1: #B5323E;
+    --primary-color2: #A51C28;
+    --primary-color3: #55050D;
+    --secondary-color1: #FFEEF6;
+    --secondary-color2: #FF90AA;
+    --secondary-color3: #DB5E73;
+    --txt-color-black: #2E2424;
+    --txt-color-white: #E6E6E6;
+    --color-gray: #707070;
+    --bg1: #FAFAFA;
+    --bg2: #C4C4C4;
+
+
 }

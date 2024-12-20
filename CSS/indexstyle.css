@@ -1,0 +1,89 @@
+.introducao {
+    background: url(/ProjetoNaraDoceseTortas/Recursos/Foto-inicio.jpg) 100% 27% no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.introducao h1 {
+    font-family: Coiny;
+    color: white;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0px var(--vermelho),
+        -1px 1px 0px var(--vermelho),
+        1px -1px 0px var(--vermelho),
+        1px 0px 0px var(--vermelho);
+    width: 700px;
+}
+
+.introducao button {
+    background-color: var(--vermelho);
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.introducao button a {
+    color: white;
+}
+
+.catalogo h2 {
+    color: var(--vermelho);
+    text-align: center;
+    padding: 5px;
+}
+
+.filtro-produto {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+
+}
+.filtro-produto li button{
+    color: var(--rosa-escuro);
+    font-family: Coiny;
+    padding: 10px;
+    background-color: var(--rosa-claro);
+    font-size: 1.2rem;
+}
+.filtro-produto li button:hover{
+    text-decoration: 2px underline var(--vermelho);
+    transform: translateY(-5px);
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.card-produto {
+    background-color: var(--branco);
+    border: 3px solid var(--rosa-escuro);
+    border-radius: 5px 5px 0px 0px;
+}
+.card-produto img {
+    width: 250px;
+    height: 250px;
+}
+.card-produto-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--rosa-escuro);
+}
+.card-produto-info p {
+    color: var(--branco);
+    font-family: Coiny;
+}
+.card-produto-info button {
+    align-self: flex-end;
+}
+ 
