@@ -1,27 +1,44 @@
-.footer-principal {
+footer {
+    background-color: var(--primary-color3);
+    font-family: "Nunito sans", "serif";
+}
+
+.footer_principal {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    border-top: 5px solid var(--marrom-escuro);
-    background-color: var(--marrom-principal);
-    color:var(--branco);
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.footer_logo p {
+    font-size: 1.2rem;
     padding: 10px 0px;
-    font-family: Coiny;
+    color: var(--txt-color-white);
+}
+
+.footer_list {
+    display: flex;
+    gap: 0px 20px;
 
 }
-.logo-footer {
-    max-width: 250px;
-    
+
+.footer_list li a {
+    color: var(--txt-color-white);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.125;
+    padding: 20px 0px;
 }
-.bloco-info {
+
+.footer_socialmedia {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .info {
-    text-align:center;
-    padding: 15px 0px;
+    text-align: center;
+    padding: 20px 0px;
     background-color: var(--marrom-escuro);
-    color: var(--branco);
+    color: var(--color-gray);
     letter-spacing: 4px;
 }
