@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 .header_logo {
@@ -15,14 +16,16 @@ header {
 
 .header_nav {
     display: flex;
+    justify-content: center;
     gap: 0px 21px;
+    flex-flow: row wrap;
 
 }
 
 .header_container ul li a {
     color: var(--txt-color-black);
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: var(--txt-size-primary1);
     line-height: 1.125;
     padding: 15px 0px;
 }
@@ -33,14 +36,16 @@ header {
 
 .header_order {
     display: flex;
-    gap: 0px 30px;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px 30px;
 }
 
 .header_button {
     background-color: var(--primary-color1);
     color: var(--txt-color-white);
     padding: 10px 25px;
-    font-size: 1rem;
+    font-size: var(--txt-size-secondary1);
     text-transform: uppercase;
     letter-spacing: 2px;
 
@@ -48,4 +53,31 @@ header {
 
 .header_button:hover {
     background-color: var(--secondary-color3);
+}
+
+@media (max-width: 1000px) {
+    .header_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .header_container ul li a {
+        font-size: var(--txt-size-primary2);
+    }
+
+    .header_button {
+        font-size: var(--txt-size-secondary2);
+        padding: 10px 10px;
+    }
+
+    .header_logo {
+        max-width: 150px;
+    }
+
+    .icon_socialmedia {
+        width: 20px;
+        height: 25px;
+    }
 }

@@ -56,7 +56,7 @@ textarea {
     --primary-color1: #B5323E;
     --primary-color2: #A51C28;
     --primary-color3: #55050D;
-    --secondary-color1: #FFEEF6;
+    --secondary-color1: #fef0f7;
     --secondary-color2: #FF90AA;
     --secondary-color3: #DB5E73;
     --txt-color-black: #2E2424;
@@ -64,6 +64,8 @@ textarea {
     --color-gray: #707070;
     --bg1: #FAFAFA;
     --bg2: #C4C4C4;
-
-
+    --txt-size-primary1: 1.25rem;
+    --txt-size-secondary1: 1rem;
+    --txt-size-primary2: 0.875rem;
+    --txt-size-secondary2: 0.625rem;
 }
