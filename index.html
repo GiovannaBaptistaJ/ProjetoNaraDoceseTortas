@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nara Doces e Tortas</title>
-    <link rel="stylesheet" href="CSS/stylereset.css">
-    <link rel="stylesheet" href="CSS/indexstyle.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="jquery-3.7.1.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,56 +22,72 @@
 
 <body>
     <div id="header"></div>
-    <main>
-        <h1>Descubra os melhores doces e tortas artesanais</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat</p>
-        <img src="Recursos/Foto-inicio.jpg" alt="Foto-Bolo" width="1080" height="1350">
-        <a href="">Peça já!</a>
+    <main id="inicio">
+        <div class="container introduction">
+            <div class="introduction-texts">
+                <h1>Descubra os melhores doces e tortas artesanais</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo consequat</p>
+                <a class="link-click" href="">Peça já!</a>
+            </div>
+            <img src="Recursos/Foto-inicio.jpg" alt="Foto-Bolo" width="1080" height="1350">
+        </div>
     </main>
-    <section>
+    <section class="container section-categories">
         <h2>Categorias</h2>
-        <ul>
-            <li>
-                <img src="" alt="Foto-Brigadeiros" width="100" height="100">
-                <h3>Brigadeiros</h3>
-            </li>
-            <li>
-                <img src="" alt="Foto-Bolos-e-Tortas" width="100" height="100">
-                <h3>Bolos e Tortas</h3>
-            </li>
-            <li>
-                <img src="" alt="Foto-Cupcakes" width="100" height="100">
-                <h3>Cupcakes</h3>
-            </li>
-            <li>
-                <img src="" alt="Foto-Bem-Casados" width="100" height="100">
-                <h3>Bem-casados</h3>
-            </li>
-        </ul>
+        <div class="categories-list">
+            <button><img src="Recursos/left-arrow.svg" alt="" width="40px" height="40px"></button>
+            <ul>
+                <li>
+                    <img src="Recursos/brigadeiro.png" alt="Foto-Brigadeiros" width="100" height="100">
+                    <h3>Brigadeiros</h3>
+                </li>
+                <li>
+                    <img src="Recursos/brigadeiro.png" alt="Foto-Bolos-e-Tortas" width="100" height="100">
+                    <h3>Bolos e Tortas</h3>
+                </li>
+                <li>
+                    <img src="Recursos/brigadeiro.png" alt="Foto-Cupcakes" width="100" height="100">
+                    <h3>Cupcakes</h3>
+                </li>
+                <li>
+                    <img src="Recursos/brigadeiro.png" alt="Foto-Bem-Casados" width="100" height="100">
+                    <h3>Bem-casados</h3>
+                </li>
+            </ul>
+            <button><img src="Recursos/right-arrow.svg" alt="" width="40px" height="40px"></button>
+        </div>
+        <a class="link-click" href="">VER TUDO</a>
     </section>
-    <section>
+    <section class="container about" id="about">
         <h2>Sobre nós</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
             commodo consequa</p>
-        <a href="#" aria-label="Saiba mais sobre Nara Doces e Tortas">Veja mais</a>
-        <div>
-            <img src="Recursos/heart.svg" alt="Icone-coração" width="25" height="21">
-            <h3>Artesanal!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
+        <a href="#" aria-label="Saiba mais sobre Nara Doces e Tortas" class="link-click">Ver mais</a>
+        <div class="about-qualities">
+            <div>
+                <img src="Recursos/heart.svg" alt="Icone-coração" width="25" height="21">
+                <h3>Artesanal!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. </p>
+            </div>
+            <div>
+                <img src="Recursos/heart.svg" alt="Icone-coração" width="25" height="21">
+                <h3>Artesanal!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. </p>
+            </div>
         </div>
-        <div>
-            <img src="Recursos/heart.svg" alt="Icone-coração" width="25" height="21">
-            <h3>Artesanal!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
-        </div>
-        <video src=""></video>
+        <video src="Recursos/video-bolo.mp4" controls loop></video>
     </section>
-    <section class="">
+    <section class="container faq">
         <h2>Perguntas frequentes</h2>
         <ul>
             <li>
@@ -113,7 +128,7 @@
             </li>
         </ul>
     </section>
-    <section>
+    <section class="container" id="contato">
         <h2>Nosso contato</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua.</p>

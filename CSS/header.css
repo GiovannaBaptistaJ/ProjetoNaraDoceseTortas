@@ -1,5 +1,4 @@
 header {
-    background-color: var(--bg1);
     font-family: "Nunito Sans", serif;
 }
 
@@ -22,37 +21,24 @@ header {
 
 }
 
-.header_container ul li a {
+.header_nav li a {
     color: var(--txt-color-black);
     font-weight: 500;
-    font-size: var(--txt-size-primary1);
+    font-size: var(--txt-size2);
     line-height: 1.125;
     padding: 15px 0px;
 }
 
-.header_container ul li a:hover {
+.header_nav li a:hover {
     color: var(--primary-color1);
 }
 
-.header_order {
+.header_socialmedia {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     gap: 10px 30px;
-}
-
-.header_button {
-    background-color: var(--primary-color1);
-    color: var(--txt-color-white);
-    padding: 10px 25px;
-    font-size: var(--txt-size-secondary1);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-}
-
-.header_button:hover {
-    background-color: var(--secondary-color3);
 }
 
 @media (max-width: 1000px) {
@@ -64,11 +50,11 @@ header {
 
 @media (max-width: 400px) {
     .header_container ul li a {
-        font-size: var(--txt-size-primary2);
+        font-size: var(--txt-size3);
     }
 
-    .header_button {
-        font-size: var(--txt-size-secondary2);
+    .header_order {
+        font-size: var(--txt-size4);
         padding: 10px 10px;
     }
 

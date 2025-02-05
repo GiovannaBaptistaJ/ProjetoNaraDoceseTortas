@@ -13,7 +13,7 @@ footer {
 }
 
 .footer_logo p {
-    font-size: var(--txt-size-primary1);
+    font-size: var(--txt-size2);
     padding: 10px 0px;
     color: var(--txt-color-white);
 
@@ -31,9 +31,13 @@ footer {
 .footer_list li a {
     color: var(--txt-color-white);
     font-weight: 500;
-    font-size: var(--txt-size-primary1);
+    font-size: var(--txt-size2);
     line-height: 1.125;
-    padding: 20px 0px;
+    padding: 15px 0px;
+}
+
+.footer_list li a:hover {
+    color: var(--primary-color1);
 }
 
 .footer_socialmedia {
@@ -58,10 +62,7 @@ footer {
 
 @media (max-width: 400px) {
     .footer_logo p {
-        font-size: var(--txt-size-primary2);
-        width: 150px;
-        padding: 10px;
-
+        font-size: var(--txt-size3);
     }
 
     .footer_list {
@@ -69,7 +70,7 @@ footer {
     }
 
     .footer_list li a {
-        font-size: var(--txt-size-primary2);
+        font-size: var(--txt-size4);
     }
 
     .footer_logo {
