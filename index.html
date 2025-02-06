@@ -40,7 +40,8 @@
     <section class="container section-categories">
         <h2>Categorias</h2>
         <div class="categories-list">
-            <button><img src="Recursos/left-arrow.svg" alt="" width="40px" height="40px"></button>
+            <button aria-label="left-arrow"><img src="Recursos/left-arrow.svg" alt="left-arrow" width="40px"
+                    height="40px"></button>
             <ul>
                 <li>
                     <img src="Recursos/brigadeiro.png" alt="Foto-Brigadeiros" width="100" height="100">
@@ -59,7 +60,8 @@
                     <h3>Bem-casados</h3>
                 </li>
             </ul>
-            <button><img src="Recursos/right-arrow.svg" alt="" width="40px" height="40px"></button>
+            <button aria-label="right-arrow"><img src="Recursos/right-arrow.svg" alt="right-arrow" width="40px"
+                    height="40px"></button>
         </div>
         <a class="link-click" href="">VER TUDO</a>
     </section>
@@ -89,38 +91,50 @@
     </section>
     <section class="container faq">
         <h2>Perguntas frequentes</h2>
-        <ul>
+        <ul class="list-faq">
             <li>
-                <button type="button">Como faço meu pedido online?</button>
+                <button type="button" class="question-faq">Como faço meu pedido online?<img src="Recursos/button-up.svg"
+                        alt="" class="button-faq" width="20px" height="15px"></button>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="answer-faq opened">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut
                         labore et
                         dolore
                         magna aliqua. </p>
                 </div>
             </li>
             <li>
-                <button type="button">Quais métodos de pagamento?</button>
+                <button type="button" class="question-faq">Quais métodos de pagamento?<img
+                        src="Recursos/button-down.svg" alt="" class="button-faq" width="20px" height="15px"></button>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="answer-faq closed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut
                         labore et
                         dolore
                         magna aliqua. </p>
                 </div>
             </li>
             <li>
-                <button type="button">Pergunta específica</button>
+                <button type="button" class="question-faq">Pergunta específica<img src="Recursos/button-down.svg" alt=""
+                        class="button-faq" width="20px" height="15px"></button>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="answer-faq closed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut
                         labore et
                         dolore
                         magna aliqua. </p>
                 </div>
             </li>
             <li>
-                <button type="button">Pergunta específica</button>
+                <button type="button" class="question-faq">Pergunta específica<img src="Recursos/button-down.svg" alt=""
+                        class="button-faq" width="20px" height="15px"></button>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="answer-faq closed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut
                         labore et
                         dolore
                         magna aliqua. </p>
@@ -128,27 +142,36 @@
             </li>
         </ul>
     </section>
-    <section class="container" id="contato">
+    <section class="container contact" id="contato">
         <h2>Nosso contato</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.</p>
-        <p>(51) 997892137</p>
-        <p>naraglacira@gmail.com</p>
-        <div class="social_media">
-            <a href="https://api.whatsapp.com/send/?phone=5551997892137&text=Oi%2C+vi+seu+perfil+Nara+Doces+e+Tortas+e+gostaria+de+realizar+uma+encomenda.&type=phone_number&app_absent=0"
-                aria-label="Fale com a gente pelo whatsapp" alt="Whatsapp"><img src="Recursos/whatsapp-icon.svg"
-                    alt="Whatsapp" width="41" height="41"></a>
-            <a href="https://www.facebook.com/naradoceira/" aria-label="Veja nossa página no facebook"
-                alt="Facebook"><img src="Recursos/facebook-icon.svg" width="23" height="43" alt="Facebook"></a>
-            <a href="https://www.instagram.com/naradocesetortas/" aria-label="Veja nossa página no instagram"
-                alt="Instagram"><img src="Recursos/instagram-icon.svg" width="43" height="43" alt="Instagram"></a>
+        <div class="contact-information">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.</p>
+            <p class="information"><img class="icon-info" src="Recursos/cellphone.svg" alt="" width="25px"
+                    height="25px">(51) 997892137
+            </p>
+            <p class="information"><img class="icon-info" src="Recursos/mail.svg" alt="" width="25px"
+                    height="25px">naraglacira@gmail.com
+            </p>
         </div>
-        <form action="" method="">
+        <div class="social-media">
+            <a href="https://api.whatsapp.com/send/?phone=5551997892137&text=Oi%2C+vi+seu+perfil+Nara+Doces+e+Tortas+e+gostaria+de+realizar+uma+encomenda.&type=phone_number&app_absent=0"
+                aria-label="Fale com a gente pelo whatsapp" alt="Whatsapp"><img class="icon-socialmedia"
+                    src="Recursos/whatsapp-icon.svg" alt="Whatsapp" width="41" height="41"></a>
+            <a href="https://www.facebook.com/naradoceira/" aria-label="Veja nossa página no facebook"
+                alt="Facebook"><img class="icon-socialmedia" src="Recursos/facebook-icon.svg" width="23" height="43"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com/naradocesetortas/" aria-label="Veja nossa página no instagram"
+                alt="Instagram"><img class="icon-socialmedia" src="Recursos/instagram-icon.svg" width="43" height="43"
+                    alt="Instagram"></a>
+        </div>
+        <form action="" method="" class="contact-form">
             <input type="text" placeholder="Nome" name="nome">
             <input type="email" placeholder="E-mail" required name="email">
             <input type="number" placeholder="Telefone" name="number">
             <textarea name="mensagem" id="" placeholder="Mensagem" resize="none" required></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="link-click">Enviar</button>
         </form>
     </section>
     <div id="footer"></div>
