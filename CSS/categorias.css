@@ -54,6 +54,10 @@
         height: 20px;
     }
 
+    .categories-list ul {
+        gap: 30px;
+    }
+
     .categories-list ul li img {
         width: 60px;
         height: 60px;

@@ -31,6 +31,7 @@ h3 {
 
 p {
     font-family: "Nunito Sans", serif;
+    line-height: 1.7;
 }
 
 a {
@@ -78,6 +79,7 @@ button {
     background-color: var(--secondary-color3);
 }
 
+
 :root {
     --primary-color0: #C94D59;
     --primary-color1: #B5323E;
@@ -88,7 +90,7 @@ button {
     --secondary-color3: #DB5E73;
     --txt-color-black: #2E2424;
     --txt-color-white: #E6E6E6;
-    --color-gray: #707070;
+    --color-gray: #A8A8A8;
     --bg1: #FAFAFA;
     --bg2: #C4C4C4;
     --txt-size1: 1.5rem;
@@ -126,5 +128,10 @@ button {
     .link-click {
         width: 90px;
         padding: 5px 15px;
+    }
+
+    .icon-socialmedia {
+        width: 20px;
+        height: 25px;
     }
 }
