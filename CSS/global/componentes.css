@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px 20px;
+}
+
+.link-click {
+    background-color: var(--primary-color1);
+    color: var(--txt-color-white);
+    padding: 10px 25px;
+    font-size: var(--txt-size3);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.link-click:hover {
+    background-color: var(--secondary-color3);
+}
+
+@media (max-width: 800px) {
+    .link-click {
+        font-size: var(--txt-size4);
+    }
+}
+
+@media (max-width: 400px) {
+    .link-click {
+        width: 90px;
+        padding: 5px 15px;
+    }
+
+    .icon-socialmedia {
+        width: 20px;
+        height: 25px;
+    }
+}

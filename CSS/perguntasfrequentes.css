@@ -10,7 +10,6 @@
 }
 
 .question-faq {
-    font-size: var(--txt-size1);
     color: var(--txt-color-black);
     display: flex;
     align-items: center;
@@ -23,7 +22,6 @@
 }
 
 .answer-faq {
-    font-size: var(--txt-size3);
     color: var(--txt-color-black);
     padding: 10px 0px;
     text-align: left;
@@ -34,24 +32,8 @@
 }
 
 @media (max-width: 800px) {
-    .question-faq {
-        font-size: var(--txt-size2);
-
-    }
-
     .button-faq {
         width: 10px;
         height: 10px;
-    }
-}
-
-@media(max-width: 400px) {
-    .question-faq {
-        font-size: var(--txt-size3);
-
-    }
-
-    .answer-faq {
-        font-size: var(--txt-size4);
     }
 }

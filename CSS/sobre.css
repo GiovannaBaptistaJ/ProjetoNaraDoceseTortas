@@ -7,7 +7,6 @@
 }
 
 .about p {
-    font-size: var(--txt-size1);
     text-align: left;
 }
 
@@ -22,9 +21,6 @@
 
 }
 
-.about-qualities div p {
-    font-size: var(--txt-size3);
-}
 
 .about video {
     height: 500px;
@@ -48,26 +44,9 @@
         height: 400px;
         order: -1;
     }
-
-    .about p {
-        font-size: var(--txt-size2);
-
-    }
-
-    .about-qualities div p {
-        font-size: var(--txt-size3);
-    }
 }
 
 @media (max-width: 400px) {
-    .about p {
-        font-size: var(--txt-size3);
-    }
-
-    .about-qualities div p {
-        font-size: var(--txt-size4);
-    }
-
     .about video {
         height: 250px;
     }

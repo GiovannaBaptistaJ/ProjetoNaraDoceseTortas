@@ -1,8 +1,4 @@
-header {
-    font-family: "Nunito Sans", serif;
-}
-
-.header_container {
+.header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,9 +19,6 @@ header {
 
 .header_nav li a {
     color: var(--txt-color-black);
-    font-weight: 500;
-    font-size: var(--txt-size2);
-    line-height: 1.125;
     padding: 15px 0px;
 }
 
@@ -33,7 +26,7 @@ header {
     color: var(--primary-color1);
 }
 
-.header_socialmedia {
+.header-socialmedia {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -42,28 +35,14 @@ header {
 }
 
 @media (max-width: 1000px) {
-    .header_container {
+    .header-container {
         flex-direction: column;
         align-items: center;
     }
 }
 
 @media (max-width: 400px) {
-    .header_container ul li a {
-        font-size: var(--txt-size3);
-    }
-
-    .header_order {
-        font-size: var(--txt-size4);
-        padding: 10px 10px;
-    }
-
     .header_logo {
         max-width: 150px;
-    }
-
-    .icon_socialmedia {
-        width: 20px;
-        height: 25px;
     }
 }
