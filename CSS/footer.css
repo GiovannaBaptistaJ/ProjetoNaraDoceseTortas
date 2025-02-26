@@ -13,7 +13,6 @@ footer {
 }
 
 .footer_logo p {
-    font-size: var(--txt-size2);
     padding: 10px 0px;
     color: var(--txt-color-white);
 
@@ -30,9 +29,6 @@ footer {
 
 .footer_list li a {
     color: var(--txt-color-white);
-    font-weight: 500;
-    font-size: var(--txt-size2);
-    line-height: 1.125;
     padding: 15px 0px;
 }
 
@@ -45,7 +41,7 @@ footer {
     gap: 30px;
 }
 
-.info {
+.info-rights {
     text-align: center;
     padding: 20px 0px;
     background-color: var(--marrom-escuro);
@@ -61,24 +57,12 @@ footer {
 }
 
 @media (max-width: 400px) {
-    .footer_logo p {
-        font-size: var(--txt-size3);
-    }
-
     .footer_list {
         justify-content: center;
     }
 
-    .footer_list li a {
-        font-size: var(--txt-size4);
-    }
-
     .footer_logo {
         max-width: 150px;
-    }
-
-    .info {
-        font-size: 0.875rem;
     }
 
     .icon_socialmedia {

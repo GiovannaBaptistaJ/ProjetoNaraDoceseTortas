@@ -24,8 +24,6 @@ main {
 
 .introduction p {
     color: var(--txt-color-black);
-    font-size: var(--txt-size2);
-
 }
 
 @media (max-width: 1000px) {
@@ -47,14 +45,6 @@ main {
 }
 
 @media (max-width: 800px) {
-    .introduction p {
-        font-size: var(--txt-size3);
-    }
-
-    .introduction a {
-        font-size: var(--txt-size4);
-    }
-
     .introduction img {
         width: 350px;
         height: 300px;
@@ -62,14 +52,6 @@ main {
 }
 
 @media (max-width: 400px) {
-    .introduction p {
-        font-size: var(--txt-size4);
-    }
-
-    .introduction a {
-        font-size: var(--txt-size5);
-    }
-
     .introduction img {
         width: 250px;
         height: 200px;

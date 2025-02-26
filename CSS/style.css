@@ -1,4 +1,8 @@
-@import "./resets.css";
+@import "./global/resets.css";
+@import "./global/cores.css";
+@import "./global/tipografia.css";
+@import "./global/componentes.css";
+
 @import "./header.css";
 @import "./introducao.css";
 @import "./categorias.css";

@@ -33,10 +33,6 @@
     padding: 40px;
 }
 
-.section-categories h3 {
-    font-family: "Nunito Sans", serif;
-}
-
 @media (max-width: 1000px) {
     .section-categories {
         align-items: flex-start;

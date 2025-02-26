@@ -4,7 +4,6 @@
 }
 
 .contact-information p {
-    font-size: var(--txt-size2);
     text-align: left;
 }
 
@@ -55,15 +54,9 @@
         flex-direction: column;
     }
 
-    .contact-information p {
-        font-size: var(--txt-size3);
-    }
 }
 
 @media (max-width: 400px) {
-    .contact-information p {
-        font-size: var(--txt-size4);
-    }
 
     .contact-form input,
     .contact-form textarea {
