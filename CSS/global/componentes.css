@@ -1,19 +1,19 @@
 .container {
+    box-sizing: border-box;
     max-width: 1200px;
     margin: 0px auto;
-    padding: 30px 20px;
+    padding: 30px 25px;
 }
 
 .link-click {
     background-color: var(--primary-color1);
     color: var(--txt-color-white);
-    padding: 10px 25px;
-    font-size: var(--txt-size3);
-    text-transform: uppercase;
+    font: var(--txt-p1-bold);
     letter-spacing: 2px;
+    text-transform: uppercase;
     border-radius: 8px;
-    width: 100px;
     text-align: center;
+    padding: 10px 30px;
 }
 
 .link-click:hover {
