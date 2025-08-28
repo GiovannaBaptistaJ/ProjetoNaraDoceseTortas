@@ -4,16 +4,18 @@ main {
 
 .introduction {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: end;
+    padding: 60px 25px;
+    column-gap: 50px;
 
 }
 
 .introduction-texts {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .introduction img {
@@ -22,26 +24,17 @@ main {
     border-radius: 20px;
 }
 
-.introduction p {
-    color: var(--txt-color-black);
+.introduction-texts a {
+    align-self: flex-start;
 }
 
 @media (max-width: 1000px) {
     .introduction {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+        grid-template-columns: 1fr;
+        justify-items: start;
+        row-gap: 30px;
 
-    h1,
-    p {
-        text-align: center;
     }
-
-    .introduction a {
-        align-self: center;
-    }
-
 }
 
 @media (max-width: 800px) {
@@ -51,7 +44,7 @@ main {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .introduction img {
         width: 250px;
         height: 200px;

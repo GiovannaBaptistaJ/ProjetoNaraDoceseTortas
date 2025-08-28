@@ -2,52 +2,62 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    column-gap: 50px;
+    padding: 60px 25px;
+}
+
+.about-texts {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-
 }
 
-.about p {
-    text-align: left;
-}
-
-.about div h3 {
-    color: var(--primary-color2);
+.about-texts a {
+    place-self: start;
 }
 
 .about-qualities {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 40px;
 
 }
 
-
-.about video {
-    height: 500px;
-    grid-row: 1/5;
-    justify-self: start;
-
+.about-qualities div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .about {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 25px;
     }
 
-    .about h2 {
-        order: -1;
+    .about-texts {
+        align-items: center;
+        max-width: 60ch;
     }
 
-    .about video {
-        height: 400px;
-        order: -1;
+    .about-texts p {
+        text-align: center;
     }
+
+    .about-texts a {
+        place-self: center;
+    }
+
+    .about-qualities div {
+        align-items: center;
+    }
+
 }
 
-@media (max-width: 400px) {
-    .about video {
-        height: 250px;
+@media (max-width: 480px) {
+    .about div video {
+        height: 200px;
+        width: 200px;
     }
 }

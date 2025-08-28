@@ -2,7 +2,7 @@
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0px auto;
-    padding: 30px 25px;
+
 }
 
 .link-click {
@@ -14,22 +14,17 @@
     border-radius: 8px;
     text-align: center;
     padding: 10px 30px;
+    max-width: max-content;
 }
 
 .link-click:hover {
     background-color: var(--secondary-color3);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .link-click {
-        font-size: var(--txt-size4);
-    }
-}
-
-@media (max-width: 400px) {
-    .link-click {
-        width: 90px;
         padding: 5px 15px;
+        font: var(--txt-p2-bold);
     }
 
     .icon-socialmedia {
