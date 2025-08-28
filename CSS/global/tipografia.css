@@ -1,3 +1,9 @@
+:root {
+    --txt-p1-bold: 700 1.125rem/1.35 'Nunito Sans', sans-serif;
+    --txt-p2-bold: 700 1rem/1.5 'Nunito Sans', sans-serif;
+}
+
+
 .txt-title1 {
     font: 400 3rem/1.2 'Coiny', serif;
 }
@@ -11,12 +17,16 @@
 }
 
 .txt-p1-bold {
-    font: 700cvvvvvvvvvvvvvv 5554ygggggggt378re00 1.125rem/1.35 'Nunito Sans', sans-serif;
+    font: 700 1.125rem/1.35 'Nunito Sans', sans-serif;
 }
 
 
 .txt-p2 {
     font: 400 1rem/1.5 'Nunito Sans', sans-serif;
+}
+
+.txt-p2-bold {
+    font: 700 1rem/1.5 'Nunito Sans', sans-serif;
 }
 
 

@@ -1,20 +1,37 @@
+.bg-faq {
+    background-color: var(--secondary-color1);
+}
+
+.faq {
+    padding: 60px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
 .faq h2 {
     text-align: center;
 }
 
 .list-faq {
-    margin: 20px 0px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    align-items: center;
+    gap: 30px;
+}
+
+.list-faq li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .question-faq {
-    color: var(--txt-color-black);
     display: flex;
     align-items: center;
-    text-align: left;
-    gap: 0px 5px;
+    gap: 0px 15px;
 }
 
 .question-faq:hover {
@@ -22,9 +39,9 @@
 }
 
 .answer-faq {
-    color: var(--txt-color-black);
     padding: 10px 0px;
-    text-align: left;
+    max-width: 60ch;
+    text-align: center;
 }
 
 .closed {
