@@ -1,0 +1,53 @@
+:root {
+    --txt-p1-bold: 700 1.125rem/1.35 'Nunito Sans', sans-serif;
+    --txt-p2-bold: 700 1rem/1.5 'Nunito Sans', sans-serif;
+}
+
+
+.txt-title1 {
+    font: 400 3rem/1.2 'Coiny', serif;
+}
+
+.txt-title2 {
+    font: 600 1.5rem/1.5 'Nunito Sans', sans-serif;
+}
+
+.txt-p1 {
+    font: 400 1.125rem/1.35 'Nunito Sans', sans-serif;
+}
+
+.txt-p1-bold {
+    font: 700 1.125rem/1.35 'Nunito Sans', sans-serif;
+}
+
+
+.txt-p2 {
+    font: 400 1rem/1.5 'Nunito Sans', sans-serif;
+}
+
+.txt-p2-bold {
+    font: 700 1rem/1.5 'Nunito Sans', sans-serif;
+}
+
+
+
+@media (max-width: 800px) {
+    .txt-title1 {
+        font-size: 2rem;
+    }
+
+    .txt-title2 {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .txt-p1 {
+        font-size: 1rem;
+    }
+
+    .txt-p2 {
+        font-size: 0.875rem;
+    }
+}

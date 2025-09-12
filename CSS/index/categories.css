@@ -1,0 +1,77 @@
+.bg-categories {
+    background: no-repeat url(../../Resources/bg-whitebakery.png);
+    background-size: cover;
+
+}
+
+.section-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 25px;
+}
+
+.section-categories h2 {
+    text-align: center;
+}
+
+.section-categories a {
+    align-self: center;
+}
+
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.categories-list h3 {
+    white-space: nowrap;
+
+}
+
+.categories-list ul {
+    display: flex;
+    gap: 80px;
+
+}
+
+.categories-list ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    min-width: 150px;
+}
+
+.categories-list ul li:hover {
+    cursor: pointer;
+}
+
+.categories-list ul li img {
+    background-color: var(--secondary-color1);
+    border-radius: 50%;
+
+}
+
+.categories-list button {
+    padding: 0px 15px;
+}
+
+.categories-list button img {
+    min-width: 40px;
+}
+
+@media (max-width: 1000px) {
+    .categories-list button img {
+        display: none;
+    }
+
+    .categories-list ul {
+        overflow-x: auto;
+    }
+
+
+}

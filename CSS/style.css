@@ -1,12 +1,16 @@
 @import "./global/resets.css";
-@import "./global/cores.css";
-@import "./global/tipografia.css";
-@import "./global/componentes.css";
+@import "./global/colors.css";
+@import "./global/typography.css";
+@import "./global/components.css";
 
 @import "./header.css";
-@import "./introducao.css";
-@import "./categorias.css";
-@import "./sobre.css";
-@import "./perguntasfrequentes.css";
-@import "./contato.css";
 @import "./footer.css";
+
+@import "./index/introduction.css";
+@import "./index/categories.css";
+@import "./index/about.css";
+@import "./index/frequentlyaskedquestions.css";
+@import "./index/contact.css";
+
+@import "./about-us/about-us-main.css";
+@import "./about-us/about-us-products.css"
