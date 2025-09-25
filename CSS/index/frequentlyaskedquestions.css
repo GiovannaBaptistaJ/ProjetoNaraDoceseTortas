@@ -22,31 +22,45 @@
     gap: 30px;
 }
 
-.list-faq li {
+.list-faq div {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .question-faq {
     display: flex;
     align-items: center;
     gap: 0px 15px;
+    transition: all 0.5s ease;
 }
 
 .question-faq:hover {
     color: var(--primary-color2);
 }
 
+.question-faq::after {
+    content: "";
+    width: 20px;
+    height: 15px;
+    background: url(../../Resources/button-down.svg);
+}
+.question-faq[aria-expanded="true"]::after {
+    background: url(../../Resources/button-up.svg);
+}
+
 .answer-faq {
     padding: 10px 0px;
     max-width: 60ch;
     text-align: center;
-}
-
-.closed {
     display: none;
 }
+
+.answer-faq.opened {
+    display: block;
+}
+
 
 @media (max-width: 800px) {
     .button-faq {

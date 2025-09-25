@@ -13,4 +13,6 @@
 @import "./index/contact.css";
 
 @import "./about-us/about-us-main.css";
-@import "./about-us/about-us-products.css"
+@import "./about-us/about-us-products.css";
+@import "./about-us/about-us-values.css";
+@import "./about-us/about-us-evaluation.css";

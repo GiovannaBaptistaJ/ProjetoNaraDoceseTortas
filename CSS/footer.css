@@ -17,6 +17,9 @@ footer {
     gap: 10px;
 
 }
+.footer_list li a {
+    transition: all 0.5s ease;
+}
 
 .footer_list li a:hover {
     color: var(--primary-color1);
@@ -34,6 +37,10 @@ footer {
     letter-spacing: 4px;
 }
 
+.svg-menu-mobile {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .footer_container {
         flex-direction: column;
@@ -44,11 +51,25 @@ footer {
     .footer_logo {
         max-width: 150px;
     }
+    .svg-menu-mobile {
+        display: block;
+    }
 
     .footer_list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        width: 100%;
+        display: none;
+    }
+    .footer_navAtivado {
+        display: block;
+        width: 100px;
+        background-color: var(--primary-color1);
+        border: 1px solid var(--primary-color2);
+        border-radius: 8px;
+    }
+    .footer_navAtivado li {
+        margin: 15px 0px;
+    }   
+    .footer_navAtivado li a:hover {
+        color: var(--primary-color3);
     }
 
     .icon_socialmedia {

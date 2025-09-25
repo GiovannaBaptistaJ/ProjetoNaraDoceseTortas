@@ -1,0 +1,44 @@
+.bg-values {
+    background: no-repeat url(../../Resources/bg-whitebakery.png);
+    background-size: cover;
+}
+
+.values-info {
+    padding: 60px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.values-info h2 {
+    text-align: center;
+    color: var(--primary-color2);
+    padding-bottom: 30px;
+}
+
+.container-values {
+    display: flex;
+    gap: 30px;
+}
+
+.block-about-us-value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    background-color: var(--secondary-color1);
+    border: 1px solid var(--secondary-color3);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.block-about-us-value h3 {
+    color: var(--primary-color1);
+}
+
+@media (max-width: 800px) {
+    .container-values {
+        flex-direction: column;
+    }
+}
