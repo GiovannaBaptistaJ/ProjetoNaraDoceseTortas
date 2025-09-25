@@ -36,7 +36,7 @@
                     commodo consequat</p>
                 <a class="link-click" href="">Peça já!</a>
             </div>
-            <img src="Resources/Foto-inicio.jpg" alt="Foto-Bolo" width="1080" height="1350">
+            <img src="Resources/photo-intro.jpg" alt="Foto-Bolo" width="1080" height="1350">
         </div>
     </main>
     <section id="categories" class="bg-categories">
@@ -73,7 +73,7 @@
     <section class="bg-about" id="about">
         <div class="container about">
             <div>
-                <video height="500" width="414px" src="Resources/video-bolo.mp4" controls loop></video>
+                <video height="500" width="414px" src="Resources/about-video.mp4" controls loop></video>
             </div>
             <div class="about-texts">
                 <h2 class="txt-title1 primary-color2">Sobre nós</h2>
@@ -115,72 +115,58 @@
     <section class="bg-faq">
         <div class="container faq">
             <h2 class="txt-title1 primary-color2">Perguntas frequentes</h2>
-            <ul class="list-faq">
-                <li>
-                    <button type="button" class="question-faq txt-title2 primary-color3">Como faço meu pedido
-                        online?<img src="Resources/button-up.svg" alt="" class="button-faq" width="20px"
-                            height="15px"></button>
-                    <div>
-                        <p class="answer-faq opened txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed
-                            do
-                            eiusmod
-                            tempor
-                            incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. </p>
-                    </div>
-                </li>
-                <li>
-                    <button type="button" class="question-faq txt-title2 primary-color3">Quais métodos de pagamento?<img
-                            src="Resources/button-down.svg" alt="" class="button-faq" width="20px"
-                            height="15px"></button>
-                    <div>
-                        <p class="answer-faq closed txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed
-                            do
-                            eiusmod
-                            tempor
-                            incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. </p>
-                    </div>
-                </li>
-                <li>
-                    <button type="button" class="question-faq txt-title2 primary-color3">Pergunta específica<img
-                            src="Resources/button-down.svg" alt="" class="button-faq" width="20px"
-                            height="15px"></button>
-                    <div>
-                        <p class="answer-faq closed txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed
-                            do
-                            eiusmod
-                            tempor
-                            incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. </p>
-                    </div>
-                </li>
-                <li>
-                    <button type="button" class="question-faq txt-title2 primary-color3">Pergunta específica<img
-                            src="Resources/button-down.svg" alt="" class="button-faq" width="20px"
-                            height="15px"></button>
-                    <div>
-                        <p class="answer-faq closed txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed
-                            do
-                            eiusmod
-                            tempor
-                            incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua. </p>
-                    </div>
-                </li>
-            </ul>
+            <dl class="list-faq">
+                <div>
+                    <dt><button type="button" class="question-faq question-faq-js txt-title2 primary-color3" aria-expanded="true" aria-controls="question1">Como faço meu pedido
+                            online?</button></dt>
+                    <dd id="question1" class="answer-faq answer-faq-js opened txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
+                        do
+                        eiusmod
+                        tempor
+                        incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua.</dd>
+                </div>
+                <div>
+                    <dt><button type="button" class="question-faq question-faq-js txt-title2 primary-color3" aria-expanded="false" aria-controls="question2">Quais métodos de
+                            pagamento?</button></dt>
+                    <dd id="question2" class="answer-faq answer-faq-js txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
+                        do
+                        eiusmod
+                        tempor
+                        incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua.</dd>
+                </div>
+                <div>
+                    <dt><button type="button" class="question-faq question-faq-js txt-title2 primary-color3" aria-expanded="false" aria-controls="question3">Realizam a entrega do pedido?</button></dt>
+                    <dd id="question3" class="answer-faq answer-faq-js txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
+                        do
+                        eiusmod
+                        tempor
+                        incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua.</dd>
+                </div>
+                <div>
+                    <dt><button type="button" class="question-faq question-faq-js txt-title2 primary-color3" aria-expanded="false" aria-controls="question4">Possuem algum desconto?</button></dt>
+                    <dd id="question4" class="answer-faq answer-faq-js txt-p1 txt-color-black">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
+                        do
+                        eiusmod
+                        tempor
+                        incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua.</dd>
+                </div>
+            </dl>
         </div>
 
     </section>
@@ -222,6 +208,7 @@
     </section>
     </div>
     <div id="footer"></div>
+    <script src="scriptindex.js"></script>
 </body>
 
 </html>
