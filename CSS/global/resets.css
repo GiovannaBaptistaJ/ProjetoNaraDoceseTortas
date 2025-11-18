@@ -37,3 +37,10 @@ button {
     border: none;
     cursor: pointer;
 }
+
+input[type="checkbox"]{ 
+    border-radius: 8px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
